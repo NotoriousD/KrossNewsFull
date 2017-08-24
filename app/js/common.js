@@ -1,5 +1,14 @@
 $(function() {
 
+    var slider = $('#slider').lightSlider({
+        item: 1,
+        controls: false
+
+    });
+
+    $('.prev').click(function() { slider.goToPrevSlide(); }); 
+    $('.next').click(function() { slider.goToNextSlide(); });
+
 	//Chrome Smooth Scroll
 	try {
 		$.browserSelector();

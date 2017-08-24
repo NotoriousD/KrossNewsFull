@@ -103,9 +103,13 @@ body{
 	color: #fff;
 }
 
-.next:hover{
+.top-slider .next:hover{
 	background-color: #f00;
 	color: #fff;
+}
+
+.lSSlideOuter .lSPager.lSpg>li.active a, .lSSlideOuter .lSPager.lSpg>li:hover a{
+	background-color: #f00;
 }
 
 
@@ -267,6 +271,10 @@ body{
 	padding-left: 19px;
 }
 
+.left-column .block-text_data{
+	margin: 0;
+}
+
 .left-column__block{
 	margin-bottom: 28px;
 }
@@ -324,8 +332,8 @@ body{
 }
 
 .stranicu{
-	padding-top: 33px;
-	padding-left: 155px;
+	padding-top: 12px;
+	padding-left: 145px;
 	a{
 		display: inline-block;
 		font-size: 14px;
@@ -336,8 +344,25 @@ body{
 		border-radius: 20px;
 		text-align: center;
 	}
+	a:nth-child(1){
+		padding: 3px 10px;
+	}
+	a:last-child{
+		padding: 3px 10px;
+	}
 	a:hover{
 		background-color: #f00;
+		color: #fff;
+	}
+	span{
+		display: inline-block;
+		font-size: 14px;
+		margin-left: 15px;
+		color: #848383;
+		padding: 5px 10px;
+		background-color: #ebebeb;
+		border-radius: 20px;
+		text-align: center;
 	}
 }
 
